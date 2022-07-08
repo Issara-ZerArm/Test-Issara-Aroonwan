@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
 .App-logo {
@@ -14,25 +15,37 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Blank-2 {
+  width: 2%;
+  height: 10px;
+}
+
+.ฺBlank-10 {
+  width: 100%;
+  height: 10px;
+}
+
+.Blank-50 {
+  width: 100%;
+  height: 50px;
+}
+
+.Blank-100 {
+  width: 100%;
+  height: 100px;
 }
